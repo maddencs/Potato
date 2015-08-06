@@ -1,6 +1,6 @@
 class Field(object):
 
-    def __init__(self, maximum=None, minimum=None,)
+    def __init__(self, maximum=None, minimum=None):
         self.maximum = maximum
         self.minimum = minimum
 
