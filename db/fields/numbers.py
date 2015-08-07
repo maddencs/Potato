@@ -1,9 +1,4 @@
-class Field(object):
-
-    def __init__(self, maximum=None, minimum=None):
-        self.maximum = maximum
-        self.minimum = minimum
-
+from . import Field
 
 class IntField(Field):
     name = 'Integer Field'
