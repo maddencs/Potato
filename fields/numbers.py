@@ -11,6 +11,6 @@ class IntField(Field):
     null = False
 
     def sql(self, field_name):
-        return sql_type + ' CHECK ' + '(' + field_name + '<' + self.maximum
+        return self.sql_type + ' CHECK ' + '(' + field_name + '<' + str(self.maximum) + ')'
 
 

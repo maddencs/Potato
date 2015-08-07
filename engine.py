@@ -1,4 +1,8 @@
 import psycopg2
+import sys
+from db import models
+import sys
+sys.path.append('..')
 import models
 import inspect
 
